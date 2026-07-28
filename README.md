@@ -23,8 +23,8 @@ The lab is hosted on an isolated Proxmox server and segmented from the productio
 
 | System | Role | IP Address |
 |---|---|---|
-| DC01 | Domain Controller, DNS Server | 192.168.60.10 |
-| WIN11-01 | Domain-joined Windows 11 workstation | 192.168.60.11 |
+| DC01 | Domain Controller, DNS Server | 192.168.60.11 |
+| WIN11-01 | Domain-joined Windows 11 workstation | 192.168.60.21 |
 | FS01 | Domain-joined Windows file server | 192.168.60.12 |
 
 **Domain:** `cyberlab.local`
@@ -33,17 +33,4 @@ The lab is hosted on an isolated Proxmox server and segmented from the productio
 
 The purpose of this lab is to move beyond basic installation and understand how Windows enterprise security works internally.
 
-The project focuses on the relationship between:
-
-```text
-User authentication
-        ↓
-Kerberos tickets
-        ↓
-LSASS access token creation
-        ↓
-Security group SIDs
-        ↓
-Resource ACL evaluation
-        ↓
-Access allowed or denied
+The project focuses on the relationship between user authentication, Kerberos tickets, LSASS access token creation, security group SIDs, ACL evaluation, and the final access-control decision.
