@@ -29,6 +29,19 @@ The lab is hosted on an isolated Proxmox server and segmented from the productio
 
 **Domain:** `cyberlab.local`
 
+## Implemented Components
+
+The following components are currently deployed and operational:
+
+- Active Directory Domain Services and AD-integrated DNS on DC01
+- Domain-joined Windows 11 workstation and Windows file server
+- Organizational Units for users, computers, servers, groups, and service accounts
+- Security groups used for file access and Remote Desktop authorization
+- Group Policy used to manage domain systems and local group membership
+- Departmental file shares protected with share and NTFS permissions
+- Isolated lab network protected by pfSense firewall segmentation
+- Troubleshooting and repair of domain trust and authentication issues
+
 ## Lab Goals
 
 The purpose of this lab is to move beyond basic installation and understand how Windows enterprise security works internally.
