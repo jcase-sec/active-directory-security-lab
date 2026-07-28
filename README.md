@@ -1,2 +1,49 @@
-# active-directory-security-lab
-Enterprise-style Active Directory security lab focused on identity, access control, Group Policy, Windows authorization, attack simulation, and detection engineering.
+# Active Directory Security Lab
+
+## Overview
+
+This repository documents the design, deployment, administration, and security testing of an enterprise-style Active Directory lab.
+
+The environment was built to develop practical experience with:
+
+- Active Directory Domain Services
+- Active Directory-integrated DNS
+- Kerberos authentication
+- Windows access tokens
+- Security groups and authorization
+- Group Policy
+- NTFS and share permissions
+- Remote Desktop access control
+- Domain trust troubleshooting
+- Attack simulation and detection engineering
+
+The lab is hosted on an isolated Proxmox server and segmented from the production home network using pfSense firewall rules.
+
+## Current Environment
+
+| System | Role | IP Address |
+|---|---|---|
+| DC01 | Domain Controller, DNS Server | 192.168.60.10 |
+| WIN11-01 | Domain-joined Windows 11 workstation | 192.168.60.11 |
+| FS01 | Domain-joined Windows file server | 192.168.60.12 |
+
+**Domain:** `cyberlab.local`
+
+## Lab Goals
+
+The purpose of this lab is to move beyond basic installation and understand how Windows enterprise security works internally.
+
+The project focuses on the relationship between:
+
+```text
+User authentication
+        ↓
+Kerberos tickets
+        ↓
+LSASS access token creation
+        ↓
+Security group SIDs
+        ↓
+Resource ACL evaluation
+        ↓
+Access allowed or denied
