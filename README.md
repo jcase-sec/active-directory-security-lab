@@ -42,6 +42,21 @@ The following components are currently deployed and operational:
 - Isolated lab network protected by pfSense firewall segmentation
 - Troubleshooting and repair of domain trust and authentication issues
 
+  ## Planned Security Testing
+
+The lab will be expanded beyond administration and access control into controlled attack simulation and detection validation.
+
+Planned scenarios include:
+
+- Password spraying
+- Kerberoasting
+- Suspicious PowerShell activity
+- Unauthorized privileged-group changes
+- Credential and authentication abuse
+- Windows event-log analysis
+- MITRE ATT&CK mapping
+- Detection queries and triage procedures
+
 ## Lab Goals
 
 The purpose of this lab is to move beyond basic installation and understand how Windows enterprise security works internally.
