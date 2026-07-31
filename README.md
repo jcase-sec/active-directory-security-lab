@@ -28,6 +28,39 @@ The lab is hosted on an isolated Proxmox server and segmented from the productio
 | FS01 | Domain-joined Windows file server | 192.168.60.12 |
 
 **Domain:** `cyberlab.local`
+## Lab Screenshots
+
+### Proxmox Lab
+
+![Proxmox Lab](screenshots/01-proxmox-lab-overview.png)
+
+### Active Directory Organizational Units
+
+![OU Structure](screenshots/02-active-directory-ou-structure.png)
+
+### Active Directory DNS
+
+![DNS Manager](screenshots/03-dns-forward-lookup-zone.png)
+
+### Security Groups
+
+![Security Groups](screenshots/04-security-groups.png)
+
+### Group Policy Management
+
+![Group Policy](screenshots/05-group-policy-management.png)
+
+### File Shares
+
+![File Shares](screenshots/06-file-server-shares.png)
+
+### NTFS Permissions
+
+![NTFS Permissions](screenshots/07-ntfs-permissions.png)
+
+### Domain Authentication
+
+![Domain Joined](screenshots/08-domain-joined-workstation.png)
 
 ## Implemented Components
 
