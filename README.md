@@ -32,35 +32,35 @@ The lab is hosted on an isolated Proxmox server and segmented from the productio
 
 ### Proxmox Lab
 
-![Proxmox Lab](screenshots/01-proxmox-lab-overview.png)
+![Proxmox Lab](screenshots/01-Initial-Build/01-proxmox-lab-overview.png)
 
 ### Active Directory Organizational Units
 
-![OU Structure](screenshots/02-active-directory-ou-structure.png)
+![OU Structure](screenshots/01-Initial-Build/02-active-directory-ou-structure.png)
 
 ### Active Directory DNS
 
-![DNS Manager](screenshots/03-dns-forward-lookup-zone.png)
+![DNS Manager](screenshots/01-Initial-Build/03-dns-forward-lookup-zone.png)
 
 ### Security Groups
 
-![Security Groups](screenshots/04-security-groups.png)
+![Security Groups](screenshots/01-Initial-Build/04-security-groups.png)
 
 ### Group Policy Management
 
-![Group Policy](screenshots/05-group-policy-management.png)
+![Group Policy](screenshots/01-Initial-Build/05-group-policy-management.png)
 
 ### File Shares
 
-![File Shares](screenshots/06-file-server-shares.png)
+![File Shares](screenshots/01-Initial-Build/06-file-server-shares.png)
 
 ### NTFS Permissions
 
-![NTFS Permissions](screenshots/07-ntfs-permissions.png)
+![NTFS Permissions](screenshots/01-Initial-Build/07-ntfs-permissions.png)
 
 ### Domain Authentication
 
-![Domain Joined](screenshots/08-domain-joined-workstation.png)
+![Domain Joined](screenshots/01-Initial-Build/08-domain-joined-workstation.png)
 
 ## Implemented Components
 
