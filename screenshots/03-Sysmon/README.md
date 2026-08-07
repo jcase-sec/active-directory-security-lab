@@ -2,7 +2,7 @@
 
 This lab documents the installation and initial configuration of Microsoft Sysmon on WIN11-02.
 
-##Objectives
+## Objectives
 
 - Install the Sysmon service and driver
 - Apply a Sysmon Configuration
