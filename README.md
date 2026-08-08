@@ -26,6 +26,8 @@ The lab is hosted on an isolated Proxmox server and segmented from the productio
 | DC01 | Domain Controller, DNS Server | 192.168.60.11 |
 | WIN11-01 | Domain-joined Windows 11 workstation | 192.168.60.21 |
 | FS01 | Domain-joined Windows file server | 192.168.60.12 |
+| WIN11-02 | Domain-joined Windows 11 workstation | 192.168.60.22 |
+|WAZUH01 | Integrated SIEM System | 192.168.60.13 |
 
 **Domain:** `cyberlab.local`
 ## Lab Screenshots
